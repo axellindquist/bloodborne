@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Wikipedia-Style Infobox</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.5;
+        margin: 0;
+        padding: 20px;
+        max-width: 900px;
+    }
+
+
+    .content {
+        max-width: 600px;
+    }
+
+
+    .infobox {
+        float: right;
+        width: 260px;
+        margin: 0 0 20px 20px;
+        background: #f8f9fa;
+        border: 1px solid #a2a9b1;
+        border-collapse: collapse;
+        font-size: 14px;
+    }
+
+    .infobox th {
+        background: #cedff2;
+        text-align: center;
+        font-size: 16px;
+        padding: 8px;
+        border-bottom: 1px solid #a2a9b1;
+    }
+
+    .infobox td {
+        padding: 6px;
+        border-top: 1px solid #a2a9b1;
+    }
+
+    .infobox img {
+        width: 100%;
+        display: block;
+        border-bottom: 1px solid #a2a9b1;
+    }
+</style>
+</head>
+<body>
+
+<div class="infobox">
+    <th colspan="2">Example Infobox</th>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2048px-React-icon.svg.png" alt="Example Image">
+    <tr>
+        <td><strong>Type</strong></td>
+        <td>Technology</td>
+    </tr>
+    <tr>
+        <td><strong>Developer</strong></td>
+        <td>Example Corp</td>
+    </tr>
+    <tr>
+        <td><strong>Released</strong></td>
+        <td>2025</td>
+    </tr>
+</div>
+
+<div class="content">
+    <h1>Sample Article Title</h1>
+    <p>
+        
+    </p>
+
+    <p>
+
+    </p>
+</div>
+
+</body>
+</html>
